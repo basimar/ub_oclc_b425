@@ -1,0 +1,5 @@
+Anpassungen
+1) mit catmandu von XML auf Alephseq konvertieren
+2) Aufnahmen mit 245$p oder 245$n entfernen
+3) Feld 001 durch 090 ersetzten, $b ergänzen
+4) Satzformat (FMT) löschen

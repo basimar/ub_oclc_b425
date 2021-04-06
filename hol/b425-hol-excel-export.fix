@@ -1,0 +1,34 @@
+marc_map("001","f001", join:" ")
+marc_map("LDR","fldr", join:" ")
+marc_map("008","f008", join:" ")
+marc_map("020","f020", join:" ")
+join_field("f020","##");  
+marc_map("022","f022.$append", join:" ")
+join_field("f022","##");  
+marc_map("245","f245.$append", join:" ")
+join_field("f245","##");  
+marc_map("245n","f245n.$append", join:" ")
+join_field("f245n","##");  
+marc_map("245p","f245p.$append", join:" ")
+join_field("f245p","##");  
+marc_map("100","f100.$append", join:" ")
+marc_map("700","f100.$append", join:" ")
+join_field("f100","##");  
+marc_map("110","f110.$append", join:" ")
+marc_map("710","f110.$append", join:" ")
+join_field("f110","##");  
+marc_map("264","f264.$append", join:" ")
+join_field("f264","##");  
+marc_map("300","f300.$append", join:" ")
+join_field("f300","##");  
+marc_map("490","f490.$append", join:" ")
+join_field("f490","##");  
+marc_map("500","f500.$append", join:" ")
+join_field("f500","##");  
+marc_map("520","f520.$append", join:" ")
+join_field("f520","##");  
+marc_map("852","f852.$append", join:" ")
+join_field("f852","##");  
+marc_map("853","f853.$append", join:" ")
+join_field("f853","##");  
+remove_field(record)

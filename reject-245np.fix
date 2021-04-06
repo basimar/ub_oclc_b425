@@ -1,0 +1,5 @@
+marc_map('245n','f245np')
+marc_map('245p','f245np')
+if exists('f245np')
+   reject()
+end
